@@ -1,0 +1,1 @@
+# Componente-de-resumo-de-resultados-Praticando-
