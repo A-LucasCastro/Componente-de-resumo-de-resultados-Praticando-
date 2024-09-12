@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 52%;
+    display: flex;
+}
+
+.container-resultados {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+/*
+* Lado esquerdo
+*/
+
+.card-esquerdo {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 20px 30px;
+}
+
+.card-esquerdo h3 {
+    color: hsl(241, 100%, 89%);
+    font-size: 16px;
+}
+
+.resultado-total {
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 100%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    padding: 40px 20px;
+}
+
+.resultado-total h1 {
+    font-size: 36px;
+    color: white;
+
+}
+.resultado-total p {
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
+}
+
+.card-esquerdo h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.card-esquerdo p {
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+}
+
+/*
+* Lado direito
+*/
+.card-direito {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.card-direito h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.resultados-bases {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.resultado-esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado-esquerdo p {
+    padding: 0px 10px;
+}
+
+.p-reaction {
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+}
+
+.p-memory {
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+}
+
+.p-verbal {
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+}
+
+.p-visual {
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+}
+
+.resultado-direito span {
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
